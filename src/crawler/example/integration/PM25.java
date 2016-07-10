@@ -7,12 +7,7 @@ import com.mashape.unirest.http.Unirest;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 
-/**
- * 整合練習：PM2.5 資料取得
- * + ElasticSearch 輸入
- *
- * @author Abola Lee
- */
+//我的PM2.5範例
 public class PM25 {
     static String elasticHost = "192.168.38.60" ;
     static String elasticPort = "9200" ;
